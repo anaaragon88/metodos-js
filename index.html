@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frutas y Verduras - Métodos de Array</title>
+  </head>
+  <body>
+    <h1>🥑 Lista de Frutas y Verduras (Demo con Array Methods)</h1>
+
+    <!-- FILTRO -->
+    <h3>Filtrar por tipo:</h3>
+    <select id="typeFilter">
+      <option value="all">Todas</option>
+      <option value="fruta">Frutas</option>
+      <option value="verdura">Verduras</option>
+      <option value="oferta">En oferta</option>
+    </select>
+
+    <!-- ORDEN -->
+    <h3>Ordenar por precio:</h3>
+    <select id="sortSelect">
+      <option value="none">Sin ordenar</option>
+      <option value="price-asc">Precio ↑</option>
+      <option value="price-desc">Precio ↓</option>
+    </select>
+
+    <!-- CATÁLOGO -->
+    <h2>Catálogo</h2>
+    <div id="catalog"></div>
+
+    <h2>Resultados extra</h2>
+    <button id="showTotalBtn">Mostrar total (reduce)</button>
+
+    <script type="module" src="./js/main.js"></script>
+  </body>
+</html>
