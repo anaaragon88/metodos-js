@@ -1,10 +1,13 @@
 # Métodos de Array
 
-![Captura de pantalla 2025-11-24 a las 0.19.01.png](attachment:a0e9d39c-f907-4235-adf0-80ae29df1bae:Captura_de_pantalla_2025-11-24_a_las_0.19.01.png)
+Los métodos de array son funciones especiales que vienen incorporadas en JavaScript para ayudarte a trabajar con listas de datos sin tener que programarlo todo desde cero.
 
-![Captura de pantalla 2025-11-24 a las 0.19.43.png](attachment:160e3e16-1bc7-4a5e-b0f4-470d114fdb71:Captura_de_pantalla_2025-11-24_a_las_0.19.43.png)
+En otras palabras:
 
----
+Son herramientas que JavaScript te regala para recorrer, transformar, filtrar, ordenar o reducir un array.
+
+El array es la caja.
+Los métodos son las herramientas para manipular lo que hay dentro.
 
 ## **4.1 forEach**
 
